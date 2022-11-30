@@ -10,6 +10,7 @@ export function Header () {
           <li><Link to="/photoworks">PhotoWorks</Link></li>
           <li><Link to="/about">About</Link></li>
           <li>Contact me</li>
+          <li>home</li>
         </ul>
     </div>
   )
