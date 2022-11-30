@@ -1,0 +1,43 @@
+.header-container{
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h4{
+  font-weight: 700;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  gap: 10px;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.navlinks > div a{
+  text-decoration: none;
+}
+
+.inactive{
+  color: white;
+}
+.nowActive{
+  color: rgb(43, 42, 42);
+  font-weight: 700;
+  
+}
+
+.mainContainer{
+  height: 100vh;
+  background: rgb(238, 238, 230);
+  margin: 0;
+}
+
+.hero{
+  background: whitesmoke;
+  height: 60%;
+  width: 100%;
+}

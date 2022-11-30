@@ -1,17 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 export function Header () {
+  let activeClassName = "nowActive";
+
+
   return (
-    <div className="header-cointainer">
-        <ul>
-          <li><Link to="/casestudies">Case Studies</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/photoworks">PhotoWorks</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li>Contact me</li>
-          <li>home</li>
-        </ul>
+    <div className="header-container">
+      <div className="logo"><h4><span>C</span>aprysan <span>S</span>inaga</h4></div>
+        <div className="navlinks">
+          <div><NavLink to="/casestudies" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }s>Case Studies</NavLink></div>
+          <div><NavLink to="/projects" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }>Projects</NavLink></div>
+          <div><NavLink to="/photoworks" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }>PhotoWorks</NavLink></div>
+          <div><NavLink to="/about" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }>About</NavLink></div>
+        </div>
     </div>
   )
 };
