@@ -1,11 +1,16 @@
 import React from "react";
+import { Contens } from "../components/content";
 
 function Home () {
   return (
-    
+    <div className="homeContainer container-fluid"> 
       <div className="hero container">
-        <h1>Hello this is Home page</h1>
+        <h2>Hello, I'm Caprysan Sinaga, </h2>
       </div>
+      <div>
+        <Contens/>
+      </div>
+    </div>
   
   )
 };
