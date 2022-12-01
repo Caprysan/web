@@ -1,11 +1,16 @@
 .header-container{
-  background: gray;
+  background: rgb(240, 47, 33);
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .logo h4{
   font-weight: 700;
+  color: white;
+  margin-left: 10px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .navlinks {
@@ -40,4 +45,22 @@
   background: whitesmoke;
   height: 60%;
   width: 100%;
+}
+
+.footer{
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(253, 205, 115);
+  height: 20%;
+}
+.menuBottom{
+  display: flex;
+  justify-content: end;
+}
+
+.logoFooter h4{
+  color: white;
+  font-weight: 700;
 }

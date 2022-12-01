@@ -7,7 +7,7 @@ export function Header () {
 
   return (
     <div className="header-container">
-      <div className="logo"><h4><span>C</span>aprysan <span>S</span>inaga</h4></div>
+      <div className="logo"><h4><span>Caps.</span></h4></div>
         <div className="navlinks">
           <div><NavLink to="/casestudies" className={({ isActive }) =>
               isActive ? activeClassName : "inactive"
