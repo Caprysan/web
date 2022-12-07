@@ -13,18 +13,19 @@ export function Header () {
       </Link>
       </div>
         <div className="navlinks">
-          <div><NavLink to="/casestudies" className={({ isActive }) =>
+          <div><NavLink to="/works" className={({ isActive }) =>
               isActive ? activeClassName : "inactive"
-            }s>Case Studies</NavLink></div>
-          <div><NavLink to="/projects" className={({ isActive }) =>
-              isActive ? activeClassName : "inactive"
-            }>Projects</NavLink></div>
-          <div><NavLink to="/photoworks" className={({ isActive }) =>
-              isActive ? activeClassName : "inactive"
-            }>PhotoWorks</NavLink></div>
+            }s>Works</NavLink></div>
           <div><NavLink to="/about" className={({ isActive }) =>
               isActive ? activeClassName : "inactive"
             }>About</NavLink></div>
+          <div><NavLink to="/photoworks" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }>Contact</NavLink></div>
+          <div><NavLink to="/galery" className={({ isActive }) =>
+              isActive ? activeClassName : "inactive"
+            }>Galery</NavLink></div>
+            <div>Resume</div>
         </div>
     </div>
   )

@@ -45,6 +45,7 @@
 
 .navlinks > div a{
   text-decoration: none;
+  font-size: 20px;
 }
 
 .inactive{
@@ -57,17 +58,25 @@
 }
 
 .mainContainer{
-  height: 100vh;
+  height: 100%;
   margin: 0;
+  background: rgb(233, 238, 198);
 }
 .homeContainer{
+  display: flex;
+  flex-direction: column;
+  flex: auto auto;
   height: 100%;
   padding-top: 10%;
 }
 .hero{
-  height: 60%;
+  height: 100%;
   width: 100%;
+  margin-bottom: 10%;
+  background: linear-gradient( 135deg, yellow, blue,
+  );
 }
+
 
 .footer{
   display: grid;
@@ -85,4 +94,38 @@
 .logoFooter h4{
   color: white;
   font-weight: 700;
+}
+
+.textHero {
+  height: 40%;
+  width: 50%;
+  
+}
+
+.textHero p {
+  font-size: 20px;
+  
+}
+
+/* content */
+.content{
+  height: 50%;
+  margin-bottom: 20px;
+  background: yellow;
+}
+.contentContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.worksInfo{
+  height: 100%;
+  background-color: blue;
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+.worksPic{
+  width: 50%;
+  height: 100%;
 }

@@ -1,14 +1,21 @@
 import React from "react";
-import { Contens } from "../components/content";
+import { Content } from "../components/content";
 
 function Home () {
   return (
     <div className="homeContainer container-fluid"> 
       <div className="hero container">
-        <h2>Hello, I'm Caprysan Sinaga, </h2>
+        <div className="textHero"> 
+          <h2>Hello, I'm Caprysan Sinaga! </h2>
+          <p>you can call me Capry or Caps. 
+            I love in designing, I’m front-end developer
+            and UI/UX Designer. I’m passionate in photography,
+            Visit my galery..</p>
+        </div>
+        
       </div>
-      <div>
-        <Contens/>
+      <div className="content">
+        <Content/>
       </div>
     </div>
   
