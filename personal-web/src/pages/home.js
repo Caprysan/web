@@ -14,7 +14,7 @@ function Home () {
         </div>
         
       </div>
-      <div className="content">
+      <div className="content container">
         <Content/>
       </div>
     </div>
