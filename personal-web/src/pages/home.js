@@ -1,5 +1,5 @@
 import React from "react";
-import { Content } from "../components/content";
+import { Content } from "../components/contentpage/content";
 
 function Home () {
   return (

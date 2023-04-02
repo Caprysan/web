@@ -25,7 +25,7 @@ function App() {
             <Route path="/works" element={<Works/>} />
             <Route path="/galery" element={<Galery/>} />
           </Routes>
-          <Footer/>
+         <Footer/>
         </div>
       </BrowserRouter>
     
